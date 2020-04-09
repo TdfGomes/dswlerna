@@ -1,27 +1,18 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import Button from '@dswlerna/button';
-import './App.css';
 import Input from '@dswlerna/input';
+import { H1 } from '@dswlerna/typography';
+import './App.css';
 
 function App() {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState('this is an input!!');
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button onClick={() => alert(value)}>CLICK</Button>
+        <H1>Design Systems with Lerna</H1>
+        <Button onClick={() => alert(value)} outline primary>
+          CLICK
+        </Button>
         <Input onChange={(e) => setValue(e.target.value)} value={value} />
       </header>
     </div>
