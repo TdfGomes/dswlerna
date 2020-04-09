@@ -1,11 +1,8 @@
-# `button`
+# `typography`
 
 > TODO: description
 
 ## Usage
 
-```
-const button = require('button');
-
 // TODO: DEMONSTRATE API
-```
+

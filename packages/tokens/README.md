@@ -4,8 +4,5 @@
 
 ## Usage
 
-```
-const tokens = require('tokens');
-
 // TODO: DEMONSTRATE API
-```
+
