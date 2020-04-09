@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import Button from '@dswlerna/button';
 import './App.css';
+import Input from '@dswlerna/input';
 
 function App() {
+  const [value, setValue] = useState('');
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +21,8 @@ function App() {
         >
           Learn React
         </a>
-        <Button onClick={() => console.log('is working')}>CLICK</Button>
+        <Button onClick={() => alert(value)}>CLICK</Button>
+        <Input onChange={(e) => setValue(e.target.value)} value={value} />
       </header>
     </div>
   );
