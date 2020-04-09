@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from 'react';
+import logo from './logo.svg';
+import Button from '@dswlerna/button';
+import './App.css';
 
 function App() {
   return (
@@ -14,9 +15,11 @@ function App() {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           Learn React
         </a>
+        <Button onClick={() => console.log('is working')}>CLICK</Button>
       </header>
     </div>
   );

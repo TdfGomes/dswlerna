@@ -1,26 +1,35 @@
 {
-  "name": "@dswlerna/typography",
+  "name": "@dswlerna/button",
+  "private": false,
   "version": "0.0.1",
-  "description": "Typography Components for React Design Systems with Lerna",
+  "description": "Button Componet for React Design Systems with Lerna",
   "author": "Tiago Gomes <t.dfgomes@icloud.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "y",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "compile": "rollup -c",
+    "compile:watch": "rollup -c -w"
   },
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@testing-library/react": "^10.0.2"
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@testing-library/jest-dom": "^5.4.0",
+    "@testing-library/react": "^10.0.2",
+    "prop-types": "^15.7.2",
+    "rollup": "^2.3.4",
+    "rollup-plugin-babel": "^4.4.0"
   }
 }

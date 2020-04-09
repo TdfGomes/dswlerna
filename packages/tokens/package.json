@@ -5,18 +5,15 @@
   "author": "Tiago Gomes <t.dfgomes@icloud.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "lib/tokens.js",
+  "main": "src/index.js",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "devDependencies": {
-    "@testing-library/react": "^10.0.2"
   }
 }
