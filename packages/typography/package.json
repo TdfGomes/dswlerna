@@ -1,0 +1,25 @@
+{
+  "name": "@dswlerna/typography",
+  "version": "0.0.1",
+  "description": "Typography Components for React Design Systems with Lerna",
+  "author": "Tiago Gomes <t.dfgomes@icloud.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "y",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^10.0.2"
+  }
+}
