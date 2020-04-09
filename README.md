@@ -1,2 +1,4 @@
-# dwslerna
-Design Systems with Lerna
+# Design Systems with Lerna
+
+TODO: Documentation and Testing
+
