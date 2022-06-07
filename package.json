@@ -2,8 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "bootstrap":"lerna bootstrap",
-    "start":"lerna run start --stream",
+    "bootstrap": "lerna bootstrap",
+    "start": "lerna run start --stream",
     "clean": "lerna clean",
     "compile": "lerna run compile",
     "compile:watch": "lerna run compile:watch"
