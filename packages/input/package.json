@@ -22,7 +22,7 @@
     "@testing-library/jest-dom": "^5.4.0",
     "@testing-library/react": "^13.3.0",
     "prop-types": "^15.7.2",
-    "rollup": "^2.3.4",
+    "rollup": "^3.2.2",
     "rollup-plugin-babel": "^4.4.0"
   },
   "dependencies": {
