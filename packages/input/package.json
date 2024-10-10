@@ -26,6 +26,6 @@
     "rollup-plugin-babel": "^4.4.0"
   },
   "dependencies": {
-    "styled-components": "^5.1.0"
+    "styled-components": "^6.1.13"
   }
 }
