@@ -9,7 +9,7 @@
     "compile:watch": "lerna run compile:watch"
   },
   "devDependencies": {
-    "lerna": "^6.5.1"
+    "lerna": "^8.1.8"
   },
   "workspaces": [
     "packages/*",
